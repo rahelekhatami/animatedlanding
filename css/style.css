@@ -1,0 +1,196 @@
+
+
+.customJumbo{
+    background-image: url(../images/allback.png);
+    opacity: .75;
+    padding: 60px;
+  background-repeat: no-repeat;
+  height: auto;
+  width:100%;
+  background-size: cover; 
+  /* background-attachment: fixed; */
+  margin-top: 100px;
+}
+/* .customJumbo ::after{
+  block-size: 540px 50px;
+} */
+  .customJumbo p{
+    font-size: 18;
+    color: #38566a;
+  }
+    
+  .headp{
+    
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .row img{
+    height: 50px;
+  }
+  .card{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0%;
+  }
+ 
+  .btn{
+    border-radius: 0 !important;
+  }
+  .navbar-brand{
+    padding-right: 1000px;
+    margin-left: 50px;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    
+  }
+  hr.orangeline{
+    color: #F9AF6D;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(249, 175, 109, 0), rgba(249, 175, 109, 0.75), rgba(249, 175, 109, 0));
+    vertical-align:top;
+    margin-top: 0;
+    width: 500px;
+  }
+  li{
+    display: inline;
+    color: #ffffff;
+    padding: 30px;
+  }
+  .myb a{
+    
+    color: #38566a;
+ }
+.myb:hover{
+    color:#634056;
+    text-shadow: #634056;
+    box-shadow: 0  37px 20px -20px rgba(0, 0, 0, 0.2)
+    
+ }
+ h3{
+  color: #F9AF6D;
+ }
+ .overview-section img {
+  width: 90px;
+  height: 90px;
+  margin: auto;    
+  display: block;
+  
+}
+
+.shorthand p {
+ 
+  border-style: none;
+  border-left: 6px solid #F9AF6D;padding:5px 5px;
+  margin-left: 50px;
+  color: #634056;
+  
+
+}
+
+.redline-section{
+  margin-left: 35px;
+}
+
+
+
+.row :after{
+  content: "";
+  clear: both;
+  display:flex;
+} 
+
+ .columnimg{
+  float: left;
+  width: 33.33%;
+  height: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+ }
+ .sitemap{
+   background-image: url("../images/sitemapDoi.png");
+   opacity: .75;
+    padding: 65px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover; 
+  background-attachment: fixed;
+  
+ }
+ .sitemap p{
+   color: aqua;
+   background-color: #38566a;
+ }
+ .GFG { 
+  border-bottom-right-radius: 35px; 
+  border-bottom-left-radius: 35px; 
+  background: #F9AF6D; 
+  padding: 30px;  
+  text-align:center; 
+  width: 100%; 
+  height: 170px;
+  font-display: flex;  
+} 
+.shadow img{
+  
+    max-width: 100%;
+    height: auto;
+ 
+}
+.prototypejumbo{
+  position: center;
+  padding: 154px;
+}
+a:hover path { fill: #cccccc }
+a:hover text {fill: aliceblue}
+svg{
+  width: 100%;
+  -ms-hyphenate-limit-zone: 100%;
+
+}
+.mybtn {
+  border-radius: 10px !important;
+  
+}
+.mybtn:focus, .mybtn:active{
+  color: #F9AF6D !important;
+ 
+  border-color: #F9AF6D;
+}
+.mybtn:hover{
+  background-color: #F9AF6D !important;
+}
+
+@media only screen and (max-width: 1280px) {
+.customJumbo h1 {
+  font-size: 3rem;
+}
+}
+@media only screen and (max-width: 720px) {
+  .customJumbo h1 {
+    font-size: 2rem;
+  }
+  }
+
+  .card-img-top:hover{
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+  }
+  
+
+ 
+  .myfooty {
+    text-align: center;
+    background-color: #38566a;
+    width: 100%;
+  }
+.myfooty p{
+   padding-top: 5px;
+   padding-bottom: 5px;
+  color: aliceblue;
+  
+  }
